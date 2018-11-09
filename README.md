@@ -1,44 +1,53 @@
-# ![logo](/examples/assets/LINE-sm.png) LINE Python
-
- [![Version 3.0.8](https://img.shields.io/badge/beta-3.0.8-brightgreen.svg "Version 3.0.8")](https://pypi.python.org/pypi/linepy) [![LICENSE](https://img.shields.io/badge/license-BSD%203%20Clause-blue.svg "LICENSE")](https://github.com/fadhiilrachman/line-py/blob/master/LICENSE) [![Supported python versions: 3.x](https://img.shields.io/badge/python-3.x-green.svg "Supported python versions: 3.x")](https://www.python.org/downloads/) [![Chat on Discord](https://discordapp.com/api/guilds/370888828489170956/widget.png "Chat on Discord")](https://discord.gg/JAA2uk6)
+# LINE Python
 
 *LINE Messaging's private API*
 
 ----
 
-## Requirement
+## Important
+First things you have to do is, clone this repository [linepy-modified](https://github.com/crash-override404/linepy-modified)
+and then you must to copy linepy folders, after all installation complete. Paste linepy folders to folder selfbot-py.  
+Please do not sell or rent this source code, because this is just for learning.
 
-The linepy module only requires Python 3. You can download from [here](https://www.python.org/downloads/). 
+## Installation for Termux
 
-## Installation
-
-Installation is simple. It can be installed from pip using the following command:
 ```sh
-$ pip install linepy
+$ apt update
+$ apt upgrade
+$ apt install python
+$ apt install git
+$ git clone https://github.com/crash-override404/selfbot-py
+$ cd selfbot-py
+$ python -m pip install -r requirements.txt
+$ python helloworld.py -a IOSIPAD
 ```
-Or from the code:
+
+## Installation for VPS
+
 ```sh
-$ python setup.py install
+$ git clone https://github.com/crash-override404/selfbot-py
+$ cd selfbot-py
+$ python3 -m pip install -r requirements.txt
+$ python3 helloworld.py -a IOSIPAD
 ```
 
-## Usage
+## LINE Square
+[HelloWorld Square](https://line.me/ti/g2/JGUODBE4RE)
 
-```python
->>> from linepy import *
->>> line = LINE('EMAIL', 'PASSWORD')
->>> line.log("Auth Token : " + str(line.authToken))
-```
-
-### Examples
-
-All examples can be found [here](https://github.com/fadhiilrachman/line-py/tree/master/examples).
-
-## Updates
-
-From pip using the following command:
-```sh
-$ pip install linepy --upgrade
-```
+## Discord
+[HelloWorld](https://discord.gg/5jqbutB)
 
 ## Author
-Fadhiil Rachman / [@fadhiilrachman](https://www.instagram.com/fadhiilrachman)
+Zero Cool / [@crash-override404](https://github.com/crash-override404)  
+Fadhiil Rachman / [@fadhiilrachman](https://www.instagram.com/fadhiilrachman)  
+Alin / [@muhmursalind](https://github.com/muhmursalind)
+
+## Support
+All Hello World Members :  
+Tanduri a.k.a HelloTan / [@hellotan](https://github.com/hellotan)  
+Fauzan Ardhana / [@fauzanardh](https://github.com/fauzanardh)  
+Moe Poi ~ / [@moepoi](https://github.com/moepoi)  
+Muhammad Fahri / [@FAHRIZTX](https://github.com/FAHRIZTX)  
+Dosugamea / [@Dosugamea](https://github.com/Dosugamea)  
+Dzin / [@dzingans](https://github.com/dzingans)  
+And others.
