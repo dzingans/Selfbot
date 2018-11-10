@@ -26,7 +26,7 @@ $ python helloworld.py -a IOSIPAD
 
 ```sh
 $ git clone https://github.com/dzingans/Selfbot
-$ cd selfbot-py
+$ cd Selfbot
 $ python3 -m pip install -r requirements.txt
 $ python3 helloworld.py -a IOSIPAD
 ```
